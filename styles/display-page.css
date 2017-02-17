@@ -1,0 +1,21 @@
+main{width:800px; margin:60px auto;
+	font-size:0;}
+section{ 
+	border:1px solid #000;
+	display: inline-block;
+	font-size:0;
+}
+.green{background: green;}
+.blue{background: blue;}
+.grey{background: grey;}
+.black{background: black;}
+.orange{background: orange;}
+
+.green,
+.blue{width:50%; height: 200px;}
+
+.grey,
+.black,
+.orange{width:33%; height: 300px;}
+
+.black{width: 34%;}
