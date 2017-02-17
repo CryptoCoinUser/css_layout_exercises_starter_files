@@ -1,5 +1,6 @@
 html{background: url(../images/outerspace_landscape.jpeg) no-repeat; background-size: cover;}
-nav{position: fixed; background: grey; width:100%; min-height:80px;}
+nav{position: fixed; background: grey; width:100%; min-height:80px;
+z-index:10;}
 nav img{border:2px solid #000;border-radius: 50%;
 width:45px;
 position: absolute; left:15px; top:15px;
@@ -8,7 +9,7 @@ nav ul{position: relative; left:50px; top:15px;}
 nav li{display: inline-block; border-right: 1px solid #000; }
 nav li a{display: block; padding:0 20px;}
 main{padding:150px 0;}
-#dashedBox{border:10px dashed green; width:600px; height: 300px; margin:0 auto;
+#dashedBox{border:10px dotted green; width:600px; height: 300px; margin:0 auto;
 position: relative;
 margin-top: 100px;}
 #dashedBox img{position: absolute;}

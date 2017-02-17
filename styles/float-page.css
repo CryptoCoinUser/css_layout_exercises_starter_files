@@ -10,3 +10,6 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+main img{width:30%; height: 30%;}
+main img:nth-child(odd){float:left; margin:10px 20px 30px 0;}
+main img:nth-child(even){float:right; margin: 10px 0 20px 30px;}
